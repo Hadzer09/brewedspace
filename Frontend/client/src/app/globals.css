@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* Warna titik yang tidak aktif */
+.swiper-pagination-bullet {
+  background: #D5CEA3 !important; 
+  opacity: 1;
+  width: 12px;
+  height: 12px;
+}
+
+/* Warna titik saat aktif (bergerak) */
+.swiper-pagination-bullet-active {
+  background: #1A120B !important;
+  width: 24px; /* Biar agak lonjong pas aktif, makin keren */
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
